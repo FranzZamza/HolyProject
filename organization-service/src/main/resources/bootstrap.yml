@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: organization-service
+  profiles:
+    active: dev
+  cloud:
+    config:
+      token: myroot
+      uri: http://localhost:8071

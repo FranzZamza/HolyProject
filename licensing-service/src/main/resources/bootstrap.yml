@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: licensing-service
+  profiles:
+    active: dev
+  cloud:
+    config:
+      token: myroot
+      uri: http://localhost:8071
